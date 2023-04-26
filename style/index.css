@@ -12,4 +12,16 @@ a{
     background-color: rgb(  80, 80, 80);
     left: 0%;
 }
-    
+.medio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px;
+    align-items: center;
+}
+.subtitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
