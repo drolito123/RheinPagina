@@ -7,21 +7,78 @@ a{
     text-decoration: none;
     color: aliceblue;
 }
-.encabezadoconfig {
-    height: 100px;
+@font-face {
+    font-family:fuente2;
+    src: url(/Gallery/Newtype.otf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url("/Gallery/P4230031.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: fuente2;    
+}
+select{
+    font-family: fuente2;
+    font-size: 20px;
     background-color: rgb(  80, 80, 80);
-    left: 0%;
+    outline-color: rgb(  80, 80, 80);
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+select:focus select:hover{
+    outline: rgb(  80, 80, 80);
+}
+
+.header{
+    font-size: 20px;
+    background-color: rgb(  80, 80, 80);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+.header{
+    cursor: pointer;
+}
+.header .nav-links{
+    list-style: none; 
+}
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+.header .nav-links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+@font-face {
+    font-family:fuente1;
+    src: url(/Gallery/Black\ Pentacle.otf);
 }
 .medio{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 200px;
+    margin: 400px;
     align-items: center;
+    font-family: fuente1;
+    font-size: 36px;
 }
 .subtitulo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+footer{
+    background-color: rgb(  80, 80, 80);
 }
