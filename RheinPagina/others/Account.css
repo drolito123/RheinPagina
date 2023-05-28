@@ -1,9 +1,19 @@
+@font-face {
+    font-family:fuente2;
+    src: url(../Gallery/Newtype.otf);
+}
+@font-face {
+    font-family:fuente1;
+    src: url(../Gallery/Black\ Pentacle.otf);
+}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: fuente2;
+}
 .fondo{
     height: 100%;
     width: 100%;
@@ -23,38 +33,31 @@
 }
 
 .boxbutton{
+    display: grid;
     width: 220px;
+    height: 40px;
     margin: 35px auto;
     cursor: pointer;
     position: relative;
     box-shadow: 0 0 20px 9px #cccccc;
     border-radius: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
-.btnswitch{
-    padding: 10px 30px;
-    cursor: pointer;
-    background: transparent;
-    border: 0;
-    outline: none;
-}
-
-#btn{
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 110px;
-    height: 100%;
-    background: #888888;
-    border-radius: 30px;
-    transition: .5s;
+.boxbutton a{
+    text-decoration: none;
+    color: black;
 }
 
 .socialbox{
+    display: grid;
     margin-bottom: 10px;
+    justify-content: center;
+
 }
 
-.socialicons{
+.socialibox{
     display: inline-block;
     text-decoration: none;
     width: 150px;
@@ -75,4 +78,77 @@
 .socialbox .socialicons a:hover{
     cursor: pointer;
     color: #cccccc;
+}
+
+.boxform{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-content: center;
+    justify-content: center;
+}
+
+.formulario input{
+    text-decoration: none;
+    border: none;
+}
+
+.formulario{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario{
+    width: 80%;
+    height: 25px;
+    background: #E6FCFF;
+    border-top: #E6FCFF;
+    border-left: #E6FCFF;
+    border-right: #E6FCFF;
+    border-bottom: 2px solid black;
+}
+
+.checkbox{
+    font-size: 12px;
+    display: grid;
+    justify-content: center;
+    height: auto;
+}
+
+.btn{
+    display: grid;
+    width: 220px;
+    height: 40px;
+    margin: 35px auto;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 20px 9px #cccccc;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button{
+    font-family: fuente2;
+    border: none;
+    border-bottom: none;
+    text-decoration: none;
+    color: black;
+    background-color: #E6FCFF;
+    cursor: pointer;
+}
+
+.homebtn{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.homebtn a{
+    text-decoration: none;
+    color: black;
 }
