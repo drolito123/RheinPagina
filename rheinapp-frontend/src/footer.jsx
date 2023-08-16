@@ -1,10 +1,10 @@
 import React from 'react';
-import './Footer.css';
+import './index.css';
 
 function Footer() {
   return (
     <footer id="footer" className="footer">
-        <div class="grupo1">
+        <div class="group1">
             <div class="box">
                 <figure>
                     <a href="#"><img src="Gallery/RheinLogo.svg" alt="logo malo"/></a>

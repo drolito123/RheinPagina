@@ -1,11 +1,11 @@
 import React from 'react';
-import './Header.css';
+import './index.css';
 
 function Header() {
   return (
     <header className="header">
         <div class="logo">
-            <img src="/Gallery/RheinLogo.svg" alt="Logo de la marca"/>
+            <img src="Gallery/RheinLogo.svg" alt="Logo de la marca"/>
         </div>
         <nav>
                 <ul class="nav-links">
