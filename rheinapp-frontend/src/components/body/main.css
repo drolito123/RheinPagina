@@ -14,11 +14,11 @@
   
   @font-face {
     font-family:fuente2;
-    src: url(../Gallery/Newtype.otf);
+    src: url(../multimedia/Newtype.otf);
   }
   @font-face {
     font-family:fuente1;
-    src: url(../Gallery/Black\ Pentacle.otf);
+    src: url(../multimedia/Black\ Pentacle.otf);
   }
   *{
     margin: 0;
