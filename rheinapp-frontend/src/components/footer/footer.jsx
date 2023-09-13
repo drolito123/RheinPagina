@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.css';
+import logoimg from '../multimedia/RheinLogo.svg';
 
 function Footer() {
   return (
@@ -7,7 +7,7 @@ function Footer() {
         <div className="group1">
             <div className="box">
                 <figure>
-                    <a href="#"><img src="../multimedia/RheinLogo.svg" alt="logo malo"/></a>
+                    <a href="#"><img src={logoimg} alt="logo malo"/></a>
                 </figure>
             </div>
             <div className="box">
@@ -22,9 +22,9 @@ function Footer() {
                     <a href="#" class="fa fa-twitter"></a>
                 </div>
             </div>
-            <div className="group2">
+        </div>
+        <div className="group2">
                 <small>&copy; 2023 <b>Rhein</b> - Todos los derechos reservados.</small>
-            </div>
         </div>
     </footer>
   );
