@@ -1,13 +1,13 @@
 import React from 'react';
-import './Login.css'
+import './Register.css'
 
-function Login() {
+function Register() {
   return (
     <body>
         <div className='fondo'>
           <div className='accountbox'>
             <div className='boxbutton'>
-              <a href="/register">Register</a>
+              <a href="/login">Login</a>
             </div>
             <div className='socialbox'>
               <div className='socialicons'>
@@ -19,19 +19,21 @@ function Login() {
             <div className='boxform'>
               <div>
                 <label htmlFor="Email"></label>
-                <input type="email" placeholder='Ingrese su Email' className='formulario'></input>
-                <input type="password" placeholder="Ingrese su contraseña" class="formulario"></input>
+                    <input type="email" placeholder="Ingrese su Email" className="formulario" />
+                    <input type="text" placeholder="Ingrese su nombre de usuario" className="formulario" />
+                    <input type="password" placeholder="Ingresar nueva contraseña" className="formulario" />
+                    <input type="password" placeholder="Repita la contraseña" className="formulario" />
               </div>
             </div>
             <div className="checkbox">
-              <label htmlFor="checkbox">Remeber password</label>
+              <label htmlFor="checkbox">Show Password</label>
               <input type="checkbox"></input> 
             </div>
             <div className="homebtn">
                 <a href="/home">Go Home</a>
             </div>
             <div className="btn">
-                <button type='submit'>Login</button>
+                <button type='submit'>Register</button>
             </div>
           </div>
         </div>
@@ -39,4 +41,4 @@ function Login() {
   );
 };
 
-export default Login;
+export default Register;

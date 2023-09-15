@@ -1,10 +1,10 @@
 @font-face {
     font-family:fuente2;
-    src: url(../Gallery/Newtype.otf);
+    src: url(../multimedia/Newtype.otf);
 }
 @font-face {
     font-family:fuente1;
-    src: url(../Gallery/Black\ Pentacle.otf);
+    src: url(../multimedia/Black\ Pentacle.otf);
 }
 *{
     box-sizing: border-box;
@@ -17,7 +17,7 @@ body{
 .fondo{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../Gallery/img1.JPG);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../multimedia/img1.JPG);
     background-position: center;
     background-size: cover;
     position: absolute;

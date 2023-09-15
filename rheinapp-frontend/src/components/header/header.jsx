@@ -11,11 +11,11 @@ function Header() {
                 <ul className="nav-links">
                     <li><a href="#footer">Info</a></li>
                     <li><a href="">Contactar</a></li>
-                    <li><a href="">Ropa</a></li>
+                    <li><a href="/shop">Ropa</a></li>
                 </ul>
                 
             </nav>
-            <a href="others/LogIn.html" className="btn"><button>Account</button></a>
+            <a href="/login" className="btn"><button>Account</button></a>
     </header>
   );
 }
