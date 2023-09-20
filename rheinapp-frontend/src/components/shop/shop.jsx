@@ -15,8 +15,8 @@ function Shop() {
     return (
     <body className='bodyshop'>
     <header className='headshop' id="header">
-        <h1 className='h1shop'>Shopping Car</h1> 
-        <img className="carrito" src={logoimg} alt="carrito" />
+        <a href="/home" className='ahome'><h2 className='h1shop'>Home</h2></a> 
+        <a href="/cart"><img className="carrito" src={logoimg} alt="carrito" /></a>
     </header>
     <div id="contenedor" className="contenedor">
         <div>

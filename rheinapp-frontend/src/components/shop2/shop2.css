@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.ahome {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+.headshop {
+    background-color: #888888;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.h1shop {
+    font-size: 24px;
+    font-family: fuente1;
+    font-weight: bold;
+}
+
+.carrito {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #D2DCDF;
+}
+
+.product-card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px;
+    text-align: center;
+}
+
+.card {
+    margin: 50px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: #cccccc;
+    background-color: #666666;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+}
+
+.card img{
+    height: 200px;
+    width: 200px;
+}
+
+.card button:hover{
+    opacity: 0.7;
+}
