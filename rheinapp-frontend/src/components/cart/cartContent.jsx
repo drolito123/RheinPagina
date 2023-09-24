@@ -1,7 +1,28 @@
-import CartElemnts from "./cartElements";
+import { useContext } from "react";
+import { dataContext } from "../context/dataContext";
 
-const cartContent = () => {
-    return <CartElemnts/>;
+import CartElements from "./cartElements.jsx";
+import CartTotal from "./cartTotal.js";
+import Navbar from "../header/header.jsx";
+
+import "./cartContent.css";
+
+const CartContent = () => {
+  const { cart } = useContext(dataContext);
+
+  return (
+    <>
+      <Navbar />
+      {cart.length > 0 ? (
+        <>
+          <CartElements />
+          <CartTotal />
+        </>
+      ) : (
+        <h2 className='cart-message-center'>Your cart is empty</h2>
+      )}
+    </>
+  );
 };
 
-export default cartContent;
+export default CartContent;

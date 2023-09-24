@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './Login.css'
 
 function Login() {
@@ -7,7 +8,7 @@ function Login() {
         <div className='fondo'>
           <div className='accountbox'>
             <div className='boxbutton'>
-              <a href="/register">Register</a>
+              <Link to='/register'>Register</Link>
             </div>
             <div className='socialbox'>
               <div className='socialicons'>
@@ -28,7 +29,7 @@ function Login() {
               <input type="checkbox"></input> 
             </div>
             <div className="homebtn">
-                <a href="/home">Go Home</a>
+              <Link to='/home'>Go Home</Link>
             </div>
             <div className="btn">
                 <button type='submit'>Login</button>

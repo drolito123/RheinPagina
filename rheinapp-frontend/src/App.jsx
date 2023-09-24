@@ -10,7 +10,8 @@ import CartContent from './components/cart/cartContent.jsx';
 import DataProvider from './components/context/dataContext.js';
 import Products from './components/shop2/Products.jsx';
 import Headers from './components/shop2/shopheader.jsx';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes, BrowserRouter} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function App() {
   return (

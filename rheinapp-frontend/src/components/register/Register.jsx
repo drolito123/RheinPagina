@@ -1,5 +1,6 @@
 import React from 'react';
 import './Register.css'
+import {Link} from 'react-router-dom';
 
 function Register() {
   return (
@@ -7,7 +8,7 @@ function Register() {
         <div className='fondo'>
           <div className='accountbox'>
             <div className='boxbutton'>
-              <a href="/login">Login</a>
+              <Link to='/login'><a>Login</a></Link>
             </div>
             <div className='socialbox'>
               <div className='socialicons'>
@@ -30,7 +31,7 @@ function Register() {
               <input type="checkbox"></input> 
             </div>
             <div className="homebtn">
-                <a href="/home">Go Home</a>
+              <Link to='/home'><a>Go Home</a></Link>
             </div>
             <div className="btn">
                 <button type='submit'>Register</button>

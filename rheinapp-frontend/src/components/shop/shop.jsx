@@ -10,13 +10,14 @@ import img7 from '../multimedia/img7.JPG';
 import img8 from '../multimedia/img8.JPG';
 import img9 from '../multimedia/img9.JPG';
 import logoimg from '../multimedia/RheinLogo.svg';
+import {Link} from 'react-router-dom';
 
 function Shop() {
     return (
     <body className='bodyshop'>
     <header className='headshop' id="header">
-        <a href="/home" className='ahome'><h2 className='h1shop'>Home</h2></a> 
-        <a href="/cart"><img className="carrito" src={logoimg} alt="carrito" /></a>
+        <Link to='/home'><a className='ahome'><h2 className='h1shop'>Home</h2></a></Link>
+        <Link to='/cart'><a><img className="carrito" src={logoimg} alt="carrito" /></a></Link>
     </header>
     <div id="contenedor" className="contenedor">
         <div>
@@ -24,7 +25,7 @@ function Shop() {
             <div className="informacion">
                 <p>Producto 1</p>
                 <p className="precio">$199<span>.99</span></p>
-                <button>Comprar</button>
+                <button type='buy'>Comprar</button>
             </div>
         </div>
         <div>
