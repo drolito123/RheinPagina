@@ -8,15 +8,14 @@ function Header() {
         <div className="logo">
             <img src={logoimg} alt="Logo de la marca"/>
         </div>
-        <nav>
+            <nav>
                 <ul className="nav-links">
-                    <li><a >Info</a></li>
-                    <li><a >Contactar</a></li>
+                    <li><a>Info</a></li>
+                    <li><a>Contactar</a></li>
                     <Link to= '/shop'><li><a >Ropa</a></li></Link>
                 </ul>
-                
             </nav>
-            <Link to= '/login'><a className="btn"><button>Account</button></a></Link>
+            <Link to= '/login'className="btn"><button>Account</button></Link>
     </header>
   );
 }

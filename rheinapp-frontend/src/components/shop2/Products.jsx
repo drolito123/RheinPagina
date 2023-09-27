@@ -12,20 +12,19 @@ const Products = () => {
     axios("data.json").then((res) => setData(res.data));
   }, []);
 
-  return data.map((product) => {
-    return (
+  return (
+     
 <div class="productCards">
   {data.map((product) => (
     <div className='card' key={product.id}>
       <img class="Imagen" src={product.img} alt='img-product-card' />
       <h3>{product.name}</h3>
-      <h4>{product.price}$</h4>
+      <h4>{product.precio}$</h4>
       <button onClick={() => buyProducts(product)}>Buy</button>
     </div>
   ))}
 </div>
-    );
-  });
-};
+    
+  );}
 
 export default Products;
