@@ -12,7 +12,6 @@ const CartContent = () => {
 
   return (
     <>
-      <Navbar />
       {cart.length > 0 ? (
         <>
           <CartElements />

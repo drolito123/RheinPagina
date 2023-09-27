@@ -14,12 +14,16 @@ const Products = () => {
 
   return data.map((product) => {
     return (
-      <div className='card' key={product.id}>
-        <img class="Imagen"src={product.img} alt='img-product-card' />
-        <h3>{product.name}</h3>
-        <h4>{product.price}$</h4>
-        <button onClick={() => buyProducts(product)}>Buy</button>
-      </div>
+<div class="productCards">
+  {data.map((product) => (
+    <div className='card' key={product.id}>
+      <img class="Imagen" src={product.img} alt='img-product-card' />
+      <h3>{product.name}</h3>
+      <h4>{product.price}$</h4>
+      <button onClick={() => buyProducts(product)}>Buy</button>
+    </div>
+  ))}
+</div>
     );
   });
 };

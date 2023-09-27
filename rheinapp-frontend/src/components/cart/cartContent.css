@@ -1,0 +1,35 @@
+.cartContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+  }
+  
+  .cartContent img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .cartContent .name {
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  .cartContent .price {
+    font-size: 16px;
+    color: #888888;
+  }
+  
+  .cartContent .cart-delete-button {
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  .cartContent .cart-delete-button:hover {
+    color: red;
+  }
