@@ -70,6 +70,37 @@
   color: black;
 }
 
+.socialbox{
+  display: grid;
+  margin-bottom: 10px;
+  justify-content: center;
+
+}
+
+.socialibox{
+  display: inline-block;
+  text-decoration: none;
+  width: 150px;
+  height: 45px;
+  line-height: 45px;
+  color: black;
+  margin: 0px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.socialicons a{
+  text-decoration: none;
+  color: black;
+  margin: 15px;
+}
+
+.socialbox .socialicons a:hover{
+  cursor: pointer;
+  color: #cccccc;
+}
+
+
 
 @media screen and (max-width:800px){
   .footer .group1{

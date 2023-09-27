@@ -12,9 +12,9 @@ function Register() {
             </div>
             <div className='socialbox'>
               <div className='socialicons'>
-                <a href="#" className='fa fa-instagram'></a>
-                <a href="#" className='fa fa-twitter'></a>
-                <a href="#" className='fa fa-facebook'></a>
+                <a className='fa fa-instagram'></a>
+                <a className='fa fa-twitter'></a>
+                <a className='fa fa-facebook'></a>
               </div>
             </div>
             <div className='boxform'>

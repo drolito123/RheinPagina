@@ -4,54 +4,63 @@
     "id": 1,
     "nombre": "reme1",
     "precio": 100,
+    "quantity": 1,
     "img": "https://sumerlabs.com/sumer-app-90b8f.appspot.com/product_photos%2F8e8a0976ac42d3db2652ccf900ac000a%2F0b17a4f0-8dc7-11ec-818c-8b4e6e8bb354?alt=media&token=da869bff-27f0-4321-9a76-1221ce71ee92"
 },
 {
     "id": 2,
     "nombre": "reme2",
     "precio": 200,
+    "quantity": 1,
     "img": "https://sumerlabs.com/sumer-app-90b8f.appspot.com/product_photos%2F8e8a0976ac42d3db2652ccf900ac000a%2F0b17a4f0-8dc7-11ec-818c-8b4e6e8bb354?alt=media&token=da869bff-27f0-4321-9a76-1221ce71ee92"
 },
 {
     "id": 3,
     "nombre": "reme3",
     "precio": 300,
+    "quantity": 1,
     "img": "https://sumerlabs.com/sumer-app-90b8f.appspot.com/product_photos%2F8e8a0976ac42d3db2652ccf900ac000a%2F0b17a4f0-8dc7-11ec-818c-8b4e6e8bb354?alt=media&token=da869bff-27f0-4321-9a76-1221ce71ee92"
 },
 {
     "id": 4,
     "nombre": "reme4",
     "precio": 400,
+    "quantity": 1,
     "img": "https://sumerlabs.com/sumer-app-90b8f.appspot.com/product_photos%2F8e8a0976ac42d3db2652ccf900ac000a%2F0b17a4f0-8dc7-11ec-818c-8b4e6e8bb354?alt=media&token=da869bff-27f0-4321-9a76-1221ce71ee92"
 },
 {
     "id": 5,
     "nombre": "reme5",
     "precio": 500,
+    "quantity": 1,
     "img": "https://sumerlabs.com/sumer-app-90b8f.appspot.com/product_photos%2F8e8a0976ac42d3db2652ccf900ac000a%2F0b17a4f0-8dc7-11ec-818c-8b4e6e8bb354?alt=media&token=da869bff-27f0-4321-9a76-1221ce71ee92"
 },
 {
     "id": 6,
     "nombre": "reme6",
     "precio": 600,
+    "quantity": 1,
     "img": "https://sumerlabs.com/sumer-app-90b8f.appspot.com/product_photos%2F8e8a0976ac42d3db2652ccf900ac000a%2F0b17a4f0-8dc7-11ec-818c-8b4e6e8bb354?alt=media&token=da869bff-27f0-4321-9a76-1221ce71ee92"
 },
 {
     "id": 7,
     "nombre": "reme7",
     "precio": 700,
+    "quantity": 1,
     "img": "https://sumerlabs.com/sumer-app-90b8f.appspot.com/product_photos%2F8e8a0976ac42d3db2652ccf900ac000a%2F0b17a4f0-8dc7-11ec-818c-8b4e6e8bb354?alt=media&token=da869bff-27f0-4321-9a76-1221ce71ee92"
 },
 {
     "id": 8,
     "nombre": "reme8",
     "precio": 800,
+    "quantity": 1,
     "img": "https://sumerlabs.com/sumer-app-90b8f.appspot.com/product_photos%2F8e8a0976ac42d3db2652ccf900ac000a%2F0b17a4f0-8dc7-11ec-818c-8b4e6e8bb354?alt=media&token=da869bff-27f0-4321-9a76-1221ce71ee92"
 },
 {
     "id": 9,
     "nombre": "reme9",
     "precio": 900,
+    "quantity": 1,
     "img": "https://sumerlabs.com/sumer-app-90b8f.appspot.com/product_photos%2F8e8a0976ac42d3db2652ccf900ac000a%2F0b17a4f0-8dc7-11ec-818c-8b4e6e8bb354?alt=media&token=da869bff-27f0-4321-9a76-1221ce71ee92"
 }
 ]

@@ -17,12 +17,14 @@ const CartElements = () => {
   };
 
   return cart.map((product) => {
+
+    console.log(product)
     return (
       <div className='cartContent' key={product.id}>
         <img src={product.img} alt='product-card' />
-        <h3 className='name'>{product.name}</h3>
+        <h3 className='name'>{product.nombre}</h3>
         <CartItemCounter product={product} />
-        <h4 className='price'>{product.precio * product.quanty}$</h4>
+        <h4 className='price'>{+(product.precio) * +(product.quantity)}$</h4>
         <h3 class='cart-delete-button' onClick={() => deleteProduct(product.id)}>
           ❌
         </h3>

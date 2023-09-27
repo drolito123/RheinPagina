@@ -5,7 +5,6 @@ import Header from './components/header/header.jsx';
 import Main from './components/main/main.jsx';
 import Login from './components/Login/Login.jsx';
 import Register from './components/register/Register.jsx';
-import Shop from './components/shop/shop.jsx';
 import CartContent from './components/cart/cartContent.jsx';
 import DataProvider from './components/context/dataContext.js';
 import Products from './components/shop2/Products.jsx';
@@ -39,12 +38,6 @@ function App() {
 
               </>} />
 
-              <Route path="/shop2" element={<>
-                
-                <Shop />
-                <Footer />
-                
-              </>} />
               <Route path="/cart" element={<>
                 
                 <Headers />

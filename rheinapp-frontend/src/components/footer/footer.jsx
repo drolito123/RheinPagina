@@ -15,11 +15,12 @@ function Footer() {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div className="box">
+            <div className="box" className='socialbox'>
                 <h2>SEGUINOS EN</h2>
-                <div>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-twitter"></a>
+                <div className='socialicons'>
+                    <a className="fa fa-instagram"></a>
+                    <a className="fa fa-twitter"></a>
+                    <a className='fa fa-facebook'></a>
                 </div>
             </div>
         </div>
