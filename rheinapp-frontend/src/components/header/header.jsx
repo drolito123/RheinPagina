@@ -1,6 +1,7 @@
 import React from 'react';
 import logoimg from '../multimedia/RheinLogo.svg';
 import {Link} from 'react-router-dom';
+import '/Rhein2023/RheinPagina/rheinapp-frontend/src/components/header/header.css'
 
 function Header() {
   return (
@@ -15,7 +16,7 @@ function Header() {
                     <Link to= '/shop'><li><a >Ropa</a></li></Link>
                 </ul>
             </nav>
-            <Link to= '/login'className="btn"><button>Account</button></Link>
+            <Link to= '/login' className="btn"><button>Account</button></Link>
     </header>
   );
 }

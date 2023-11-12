@@ -3,6 +3,7 @@ import './Register.css'
 import {Link} from 'react-router-dom';
 
 function Register() {
+  
   return (
     <body>
         <div className='fondo'>
@@ -22,19 +23,15 @@ function Register() {
                 <label htmlFor="Email"></label>
                     <input type="email" placeholder="Ingrese su Email" className="formulario" />
                     <input type="text" placeholder="Ingrese su nombre de usuario" className="formulario" />
-                    <input type="password" placeholder="Ingresar nueva contraseña" className="formulario" />
-                    <input type="password" placeholder="Repita la contraseña" className="formulario" />
+                    <input type="password" placeholder="Ingresar nueva contraseña" className="formulario" id="pass"/>
+                    <input type="password" placeholder="Repita la contraseña" className="formulario" id="pass"/>
               </div>
-            </div>
-            <div className="checkbox">
-              <label htmlFor="checkbox">Show Password</label>
-              <input type="checkbox"></input> 
             </div>
             <div className="homebtn">
               <Link to='/home'><a>Go Home</a></Link>
             </div>
-            <div className="btn">
-                <button type='submit'>Register</button>
+            <div className="btns">
+               <Link to='/home'><button type='submit'>Register</button></Link>
             </div>
           </div>
         </div>

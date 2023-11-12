@@ -117,7 +117,7 @@ body{
     height: auto;
 }
 
-.btn{
+.btns{
     display: grid;
     width: 220px;
     height: 40px;
@@ -130,7 +130,7 @@ body{
     align-items: center;
 }
 
-.btn button{
+.btns button{
     font-family: fuente2;
     border: none;
     border-bottom: none;

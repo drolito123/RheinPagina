@@ -13,11 +13,11 @@ const CartItemCounter = ({ product }) => {
   return (
     <>
       <p className='counter-button' onClick={decrese}>
-        -
+        ➖
       </p>
       <p>{product.quantity}</p>
       <p className='counter-button' onClick={() => buyProducts(product)}>
-        +
+        ➕
       </p>
     </>
   );

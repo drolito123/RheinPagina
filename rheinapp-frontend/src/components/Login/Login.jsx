@@ -1,10 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import './Login.css'
+import './Login.css';
+import 'boxicons';
 
 function Login() {
   return (
-    <body>
+    <body method="post">
         <div className='fondo'>
           <div className='accountbox'>
             <div className='boxbutton'>
@@ -31,8 +32,8 @@ function Login() {
             <div className="homebtn">
               <Link to='/home'>Go Home</Link>
             </div>
-            <div className="btn">
-                <button type='submit'>Login</button>
+            <div className="btns">
+              <Link to='/home'><button type='submit'>Login</button></Link>
             </div>
           </div>
         </div>

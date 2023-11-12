@@ -15,7 +15,7 @@ function Footer() {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div className="box" className='socialbox'>
+            <div className="box" class='socialbox'>
                 <h2>SEGUINOS EN</h2>
                 <div className='socialicons'>
                     <a className="fa fa-instagram"></a>
