@@ -1,12 +1,3 @@
-@font-face {
-  font-family:fuente2;
-  src: url("../src/components/multimedia/Newtype.otf");
-}
-@font-face {
-  font-family:fuente1;
-  src: url("../src/components/multimedia/Black Pentacle.otf");
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
   margin: 0;
