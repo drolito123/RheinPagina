@@ -4,21 +4,27 @@ import { dataContext } from "../context/dataContext";
 const CartItemCounter = ({ product }) => {
   const { cart, setCart, buyProducts } = useContext(dataContext);
 
-  const decrese = () => {
-    const productrepeat = cart.find((item) => item.id === product.id);
+  const decrease = () => {
+    const productRepeat = cart.find((item) => item.id === product.id);
 
-    productrepeat.quantity !== 1 &&
-      setCart(cart.map((item) => (item.id === product.id ? { ...product, quantity: productrepeat.quantity - 1 } : item)));
+    if (productRepeat.quantity !== 1) {
+      setCart(cart.map((item) => (item.id === product.id ? { ...item, quantity: productRepeat.quantity - 1 } : item)));
+    }
   };
+
+  const increase = () => {
+    setCart(cart.map((item) => (item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item)));
+  };
+
   return (
     <>
-      <p className='counter-button' onClick={decrese}>
-        ➖
-      </p>
+      <button className='counter-button' onClick={decrease}>
+        -
+      </button>
       <p>{product.quantity}</p>
-      <p className='counter-button' onClick={() => buyProducts(product)}>
-        ➕
-      </p>
+      <button className='counter-button' onClick={increase}>
+        +
+      </button>
     </>
   );
 };

@@ -13,7 +13,7 @@ function Header() {
                 <ul className="nav-links">
                     <li><a>Info</a></li>
                     <li><a>Contactar</a></li>
-                    <Link to= '/shop'><li><a >Ropa</a></li></Link>
+                    <Link to= '/shop'><li>Ropa</li></Link>
                 </ul>
             </nav>
             <Link to= '/login' className="btn"><button>Account</button></Link>

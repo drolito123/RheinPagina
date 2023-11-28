@@ -32,59 +32,56 @@
     background-color: #D2DCDF;
 }
 
+.productCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
 .card {
-    width: 250px;
-    height: 350px;
-    margin: 10px;
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .card .Imagen {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .card h3 {
-    font-size: 18px;
-    color: #000000;
-  }
-  
-  .card h4 {
-    font-size: 16px;
-    color: #888888;
-  }
-  
-  .card button {
-    font-size: 20px;
-    color: #000000;
-    cursor: pointer;
-  }
-  
-  .card button:hover {
-    color: red;
-  }
-  
-  .productCards {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-  
-  .productCards .card {
-    margin-bottom: 0;
-    margin-right: 10px;
-  }
-  
-  @media (max-width: 768px) {
-    .productCards .card {
-      width: 100%;
-      margin-right: 0;
-    }
-  }
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.Imagen {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.2rem;
+  color: #888888; /* Cambia esto al color que prefieras */
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #cccccc; /* Cambia esto al color que prefieras */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #888888; /* Cambia esto al color que prefieras */
+}
