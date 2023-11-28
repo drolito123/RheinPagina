@@ -1,7 +1,7 @@
 import React from 'react';
 import logoimg from '../multimedia/RheinLogo.svg';
 import {Link} from 'react-router-dom';
-import '/Rhein2023/RheinPagina/rheinapp-frontend/src/components/header/header.css'
+import '../header/header.css';
 
 function Header() {
   return (
