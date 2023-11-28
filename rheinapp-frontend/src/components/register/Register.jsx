@@ -32,7 +32,6 @@ function Register() {
       <div className='fondo'>
         <div className='accountbox'>
           <div className='boxbutton'>
-            {/* Agregamos el botón para ir a la página de Login */}
             <Link to='/login'><a>Login</a></Link>
           </div>
           <div className='socialbox'>
@@ -74,10 +73,9 @@ function Register() {
             </div>
           </div>
           <div className='btns'>
-            <button type='button' onClick={handleRegister}>
-              {/* Agregamos un icono al botón */}
+          <Link to='/home'><button type='button' onClick={handleRegister}>
               <i className="fa fa-user-plus"></i> Register
-            </button>
+            </button></Link>
           </div>
           <div className='error-message'>{error}</div>
         </div>
