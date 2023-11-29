@@ -12,18 +12,17 @@ function Register() {
 
   const handleRegister = async () => {
     try {
-      // Realizar la solicitud al backend con Axios
       const response = await axios.post('http://localhost:8080/logdata', {
         mail: email,
         username: username,
         password: password,
       });
 
-      // Manejar la respuesta del backend según sea necesario
       console.log('Registro exitoso', response.data);
+      alert('Registro exitoso');
     } catch (error) {
-      // Manejar errores de la solicitud
       console.error('Error al registrar:', error.message);
+      alert('Error al registrarse');
     }
   };
 

@@ -16,10 +16,10 @@ function Login() {
       });
 
       console.log('Login successful', response.data);
-      // Lógica para manejar el éxito del inicio de sesión, redirección, etc.
+      alert('Inicio de sesión exitoso');
     } catch (error) {
       console.error('Error during login:', error.message);
-      // Lógica para manejar el error, mostrar un mensaje, etc.
+      alert('Error al iniciar sesión');
     }
   };
 
@@ -62,7 +62,7 @@ function Login() {
             <Link to='/home'>Go Home</Link>
           </div>
           <div className="btns">
-          <Link to='/login'><button type='button' onClick={handleLogin}>
+          <Link to='/home'><button type='button' onClick={handleLogin}>
               Login
             </button></Link>
           </div>

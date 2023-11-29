@@ -1,5 +1,7 @@
 import { createContext, useState } from "react";
 
+//esta es la funcion que hace que me añada los items a mi carrito
+
 export const dataContext = createContext();
 
 const DataProvider = ({ children }) => {

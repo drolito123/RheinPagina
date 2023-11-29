@@ -22,7 +22,6 @@ const CartElements = () => {
         <img src={product.img} alt='product-card' />
         <h3 className='name'>{product.nombre}</h3>
         <CartItemCounter product={product} />
-        {/* Utilizamos 'price' y 'quantity' en lugar de 'precio' y 'quanty' */}
         <h4 className='price'>{(product.price * product.quantity).toFixed(2)}$</h4>
         <h3 className='cart-delete-button' onClick={() => deleteProduct(product.id)}>
           ❌
